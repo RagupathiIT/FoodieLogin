@@ -1,0 +1,68 @@
+/* global or reset style */
+*{
+    margin:0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login-page{
+    display: flex;
+    height: 100vh;
+}
+.login-background{
+    width: 60%;
+    margin-right: 60px;
+}
+.login-background > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.login-form{
+    width: 40%;
+    margin-top: 130px;
+}
+.logo-container > img{
+    width: 50%;
+}
+
+.login-container > img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover ;
+
+}
+
+.login-heading{
+    margin-bottom: 20px;
+    font-size: 38px;
+}   
+
+.input-fields > input{
+    margin-bottom: 20px;
+    width: 300px;
+    padding: 20px;
+    border: rgb(192,192,192) 2px solid
+}
+.input-fields > input::placeholder{
+    font-size: 18px;
+    color: lightgray;
+}
+.input-fields > button{
+    width: 300px;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-style: 18px;
+    color: white;
+    background-color: rgb(175,28,40);
+    border: 0px;
+
+}
+.forget-password ~a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.input-fields > input:focus{
+    outline: none;
+}
